@@ -217,9 +217,14 @@ a {
     border-radius: 50%;
 }
 
+/* .xxx:hover svg path {
+    color: #fff;
+    fill: red;
+} */
+
 /* =========================== */
 /* list-buttons */
-.list-buttons .btn {
+/* .list-buttons .btn {
     padding: 0.7em 2em;
     background: #1c1c1c;
     color: #fff;
@@ -283,4 +288,11 @@ a {
 
 .list-buttons .btn3:hover::before {
     left: 0;
+} */
+
+.provider .col-12 > div:hover,
+.available .col-12 > div:hover {
+    background-color: rgba(33, 37, 96, 0.95) !important;
+    transition: var(--main-transition);
+    color: #fff;
 }
